@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f7f7f7;
+
+}
+.header{
+    background-color: #A6E0D5;
+    height: 270px;
+    overflow: hidden;
+}
+.kuji{
+    max-width: 400px;
+    padding-bottom: 285px;
+    background-image: url(../img/kujigif.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin:0px auto;
+    background-position: center center;
+}
+
+.container{
+    background-color: #f7f7f7;
+}
+.main{
+    display: flex;
+    margin-top: 20px;
+    background-color: #f7f7f7;
+
+}
+.title{
+    background-image: url(../img/01-KUJI.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    padding-bottom: 65px;
+    margin: 0px auto 0px auto;
+}
+p{
+    text-align: center;
+}
+.light01 , .light02 , .light03 , .light04{
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.light01{
+    background-image: url(../img/01-light01.png);
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+.light02{
+    background-image: url(../img/01-light02.png);
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+}
+.light03{
+    background-image: url(../img/01-light03.png);
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+}
+.light04{
+    background-image: url(../img/01-light04.png);
+    height: 40px;
+    width: 40px;
+    margin-top: 30px;
+}
+.rf{
+    animation: rf 4s infinite linear;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 80px;
+    right: 35px;
+    margin: 0;
+    padding: 0;
+}
+@keyframes rf {
+    from {transform: rotate(0deg);}
+    to{transform: rotate(-360deg);}
+}
+.yf01{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 160px;
+    left: 60px;
+    animation: yf01 4s infinite linear;
+}
+@keyframes yf01{
+    from {transform: rotate(-360deg);}
+    to {transform: rotate(0deg);}
+}
+.yf02{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 200px;
+    right: 40px;
+    animation: yf02 5s infinite linear;
+}
+@keyframes yf02{
+    from {transform: rotate(-360deg);}
+    to {transform: rotate(0deg);}
+}
+.message{
+    background-image: url(../img/01-messenger.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 60px;
+    margin: 10px auto;
+}
+.item{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    /* text-align: center; */
+}
+a:active{
+    -webkit-filter: brightness(0.5);
+    -moz-filter: brightness(0.5);
+    -o-filter: brightness(0.5);
+    -ms-filter: brightness(0.5);
+    filter: brightness(0.5);
+}
+.message:active{
+    filter: brightness(0.5);
+}
+.item > div:active{
+    filter: brightness(0.5);
+}
+.fb , .teaching , .imformation{
+    width: 110px;
+    height: 230px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.fb{
+    background-image: url(../img/01-bottom-FB.png);
+}
+.teaching{
+    background-image: url(../img/01-bottom-teach.png);
+}
+.imformation{
+    background-image: url(../img/01-bottom-information.png);
+}
+.list , .list01 {
+    display: none;
+}
+.display , .teach{
+    display: flex;
+    position: fixed;
+    top: 0%;
+    z-index: 99;
+    width: 100vw;
+    height: 100vh;
+}
+.close {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.815);
+    position: fixed;
+    /* z-index: -1; */
+    margin: 0 auto;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    max-width: 400px;
+    margin: auto;
+    box-sizing: border-box;
+    width: 80%;
+}
+
+.menu {
+    position: absolute;
+    height: 100%;
+    padding: 0 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.fixed{
+    position: fixed;
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+}
+
+.borders {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+}
+.bg{
+    margin: auto;
+    width: 90%;
+    max-height: 80vh;
+}
+.bg > img {
+    width: 100%;
+} 
+img{
+    width: 90%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items {
+    max-width: 50%;
+}
+.card{
+    margin: 0 auto 20px auto;
+    max-width: 210px;
+    height: 65px;
+    border-radius: 15px;
+}
+
+.Bclose {
+    position: absolute;
+    width: 17%;
+    height: 10.6%;
+    top: 2%;
+    right: 7%;
+    border-radius: 100%;
+    z-index: 999;
+}

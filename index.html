@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>酷Gの動名片</title>
+    <meta property="og:image" content="https://9at-go.com/ebc/KUJI/img/kujiiiiiii.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="kit/WOW-master/css/site.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="header wow fadeIn">
+        <div class="kuji wow fadeIn"></div>
+        <div class="" data-wow-delay="0.1s"><img src="img/01-f01.png" class="rf fadeInUp" alt=""></div>
+        <div class="" data-wow-delay="0.1s"><img src="img/01-f02.png" class="yf01 wow fadeInUp" alt=""></div>
+        <div class="" data-wow-delay="0.1s"><img src="img/01-f02.png" class="yf02 wow fadeInUp" alt=""></div>
+    </div>
+    <div class="container">
+        <div class="main">
+            <div class="light01 wow zoomIn" data-wow-delay="0.5s"></div>
+            <div class="light02 wow zoomIn" data-wow-delay="0.1s"></div>
+            <div class="title wow fadeInUp" data-wow-delay="0.1s"></div>
+            <div class="light04 wow zoomIn" data-wow-delay="0.3s"></div>
+            <div class="light03 wow zoomIn" data-wow-delay="0.2s"></div>
+        </div>
+
+        <p class="wow fadeInUp" data-wow-delay="0.3s">驕傲可愛的長毛吉娃娃</p>
+
+        <div class="message wow fadeInUp" data-wow-delay="0.5s"><a href="https://m.me/kuji9at" target="view_window"></a>
+        </div>
+
+
+        <div class="item">
+            <div class="fb wow fadeInUp" data-wow-delay="0.8s"><a href="https://www.facebook.com/kuji9at"
+                    target="view_window"></a></div>
+            <div class="teaching wow fadeInUp" data-wow-delay="0.8s"></div>
+            <div class="imformation wow fadeInUp" data-wow-delay="0.8s"></div>
+        </div>
+    </div>
+    <div class="list01">
+        <div class="teach">
+            <div class="wrapper">
+                <div class="fixed">
+                    <div class="close"></div>
+                    <div class="content">
+                        <div class="Bclose"></div>
+                        <div class="menu">
+                            <div class="borders">
+                                <img src="img/02-card.png" class="card" alt="">
+                                <div class="items">
+                                    <a href="img/01.jpg"><img src="img/02-how.png" class="sign" alt=""></a>
+                                </div>
+                                <div class="items">
+                                    <a href="img/02.jpg"><img src="img/02-google.png" alt=""></a>
+                                </div>
+                                <div class="items">
+                                    <a href="img/03.jpg"><img src="img/02-ios.png" alt=""></a>
+                                </div>
+                                <div class="items">
+                                    <a href="img/04.jpg"><img src="img/02-android.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg">
+                            <img src="img/02-BG.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="list">
+        <div class="display">
+            <div class="wrapper">
+                <div class="fixed">
+                    <div class="close"></div>
+                    <div class="content">
+                        <div class="Bclose"></div>
+                        <div class="menu">
+                            <div class="borders">
+                                <div class="items">
+                                    <a href="Tel:0423955608"><img src="img/02-phone.png" alt=""></a>
+                                </div>
+                                <div class="items">
+                                    <a href="mailto:my.color@msa.hinet.net"><img src="img/02-mail.png" alt=""></a>
+                                </div>
+                                <div class="items">
+                                    <a href="https://www.instagram.com/kuji9at/"><img src="img/02-IG.png" alt=""></a>
+                                </div>
+                                <div class="items">
+                                    <a href="https://9at-go.com/"><img src="img/02-web.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg">
+                            <img src="img/02-BG.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="kit/WOW-master/dist/wow.js"></script>
+    <script>
+        new WOW().init();
+
+        $('.teaching').click(function(){
+            $('.list01').fadeIn('teach');
+        });
+        $('.close').click(function () {
+            $('.list01').fadeOut('display')
+        })
+        $('.Bclose').click(function () {
+            $('.list01').fadeOut('display')
+        })
+        
+        $('.imformation').click(function () {
+            $(".list").fadeIn('display');
+        });
+
+        $('.close').click(function () {
+            $('.list').fadeOut('display')
+        })
+        $('.Bclose').click(function () {
+            $('.list').fadeOut('display')
+        })
+        
+    </script>
+    <? 
+        //#載入 外部套件系統 API串接#//
+            include "PHP-library/registeringtype.php";
+
+        //#END 載入 外部套件系統 API串接#//
+    ?>
+</body>
+
+</html>
